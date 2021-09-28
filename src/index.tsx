@@ -24,6 +24,7 @@ const App = () => {
     if (!ref.current) {
       return;
     }
+    
     const result = await ref.current.build({
       entryPoints: ["index.js"],
       bundle: true,
