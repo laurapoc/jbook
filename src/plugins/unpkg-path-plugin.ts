@@ -34,7 +34,7 @@ export const unpkgPathPlugin = () => {
           return {
             loader: "jsx",
             contents: `
-              import React from 'react';
+              import React, {useState} from 'react';
               console.log(react);
             `,
           };
